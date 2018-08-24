@@ -1,6 +1,9 @@
 # Langur - Language translation chat bot
 Langur is a translation chat bot made with [Microsoft Bot Framework](https://dev.botframework.com/) with [Node.js](http://nodejs.org) and a free [Google translate Api](https://github.com/matheuss/google-translate-api). You can read more about it on my [blog](https://arshadmehmood.com/development/langur-language-translation-bot/).
 
+<a href="https://imgur.com/0tg1mAh"><img  style="float: right;" src="https://i.imgur.com/0tg1mAht.png" title="source: imgur.com" /></a> 
+
+
 ### Demo:
 
 Fb Messenger
