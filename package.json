@@ -1,0 +1,21 @@
+{
+  "name": "langur",
+  "version": "1.0.0",
+  "description": "Langur language translator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "food",
+    "bot"
+  ],
+  "author": "Arshad Mehmood",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.9.1",
+    "dotenv": "^4.0.0",
+    "google-translate-api": "^2.3.0",
+    "restify": "^6.0.0"
+  }
+}
