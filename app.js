@@ -2,7 +2,7 @@
 var restify = require('restify');
 var builder = require('botbuilder');
 
-var keys = require('./keys.js');
+var keys = require('./keys.js'); //Remove it, used only to import appId and appPassword
 
 // Setup Restify Server
 var server = restify.createServer();
@@ -10,12 +10,10 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
    console.log('%s listening to %s', server.name, server.url); 
 });
 
-console.log('module.exports.appId', keys.appId); 
-
 // Create chat connector for communicating with the Bot Framework Service
 var connector = new builder.ChatConnector({
-    appId: keys.appId,
-    appPassword: keys.appPassword
+    appId: keys.appId, //Replace with App Id from your Microsoft bot
+    appPassword: keys.appPassword //Replace with App Password from your Microsoft bot
 });
 
 const translate = require('google-translate-api');

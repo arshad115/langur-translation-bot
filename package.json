@@ -7,15 +7,17 @@
     "start": "node app.js"
   },
   "keywords": [
-    "food",
+    "translator",
     "bot"
   ],
-  "author": "Arshad Mehmood",
-  "license": "ISC",
+  "author": "Arshad Mehmood <arshad115@hotmail.com> (https://arshadmehmood.com/)",
+  "license": "GPL-3.0",
   "dependencies": {
     "botbuilder": "^3.9.1",
     "dotenv": "^4.0.0",
     "google-translate-api": "^2.3.0",
     "restify": "^6.0.0"
-  }
+  },
+  "repository": "github:arshad115/langur-translation-bot",
+  "homepage": "https://arshadmehmood.com/development/my-first-open-source-repository-langur-translation-chat-bot/"
 }
